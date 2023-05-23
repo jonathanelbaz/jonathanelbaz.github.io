@@ -41377,15 +41377,34 @@ a.u-link.u-text-hover-grey-90:hover {
   }
 }
 
-
-@media (max-width: 575px) {
+@media (max-width: 767px) {
   .u-header .u-sheet-1 {
-    min-height: 72px;
+    min-height: 131px;
+  }
+
+  .u-header .u-menu-1 {
+    margin-top: 83px;
+    margin-right: auto;
   }
 
   .u-header .u-image-1 {
-    width: 340px;
-    height: 62px;
+    height: 70px;
+    margin-top: -106px;
+    margin-left: auto;
+    margin-bottom: 48px;
+  }
+}
+@media (max-width: 575px) {
+  .u-header .u-sheet-1 {
+    min-height: 116px;
+  }
+
+  .u-header .u-menu-1 {
+    margin-top: 69px;
+  }
+
+  .u-header .u-image-1 {
+    margin: -93px -20px 38px;
   }
 }
  .u-footer {
